@@ -7,7 +7,7 @@ test("Acessar o saucedemo buscando por testid", async ({ page }) => {
   await page.getByTestId("username").fill("usuario-demo");
 });
 
-test.only("Asserts básicos", async ({ page }) => {
+test("Asserts básicos", async ({ page }) => {
   await page.goto("https://saucedemo.com");
 
   // const logginButton = await page.locator('input[id="login-button"]');
